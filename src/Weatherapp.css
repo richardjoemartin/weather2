@@ -1,0 +1,96 @@
+body {
+  position:relative;
+  width:100%;
+  height: 100vh;
+  background-image: url('./Assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+
+height: auto;
+
+}
+
+.weather-image{
+  z-index: 3;
+  position:absolute;
+  top:-20%;
+  left:40%;
+  
+
+}
+
+.jj {
+  
+  margin-top: 20%;
+  font-family: 'Acme', sans-serif;
+  color: rgb(252, 252, 252);
+  text-shadow: 2px 2px 5px rgb(0, 118, 236);
+  text-align: center;
+  font-size: larger;
+  
+}
+
+input,
+button {
+  box-shadow: inset 1px 1px 5px rgb(74, 139, 176) ;
+  border-radius: 30px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(123, 166, 201);
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+.contentdark{
+  background-repeat: no-repeat;
+background-color: rgba(0, 0, 0, 0.7);
+width:30%;
+font-size: xx-large;
+margin-top: 30px;
+border-radius: 30px;
+margin-left: 35%;
+box-shadow: inset 1px 1px 14px rgb(74, 139, 176) ;
+}
+@media screen and (min-width: 400px) and (max-width: 400px) {
+  *{
+    height: auto;
+    width: 100%;
+  }
+  body{
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .jj {
+  
+    margin-top: 20%;
+    font-family: 'Acme', sans-serif;
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 5px rgb(0, 118, 236);
+    text-align: center;
+    font-size: smaller;
+    
+  }
+.jjj{
+  width: 50%;
+  margin-left: 23.5%;
+}
+.weather-image{
+ margin-left: -40%;
+ margin-top: 20%;
+ z-index: -10;
+}
+.contentdark{
+  margin-top: 20%;
+  margin-left: 71.5px;
+  width: 64%;
+  font-size:27px ;
+  padding: 10px;
+
+}
+}
