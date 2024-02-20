@@ -1,4 +1,4 @@
-#Project link : [weather2-richard-react.netlify.app]
+Project link : [weather2-richard-react.netlify.app](https://weather2-richard-react.netlify.app/)
 
 
 # Getting Started with Create React App
