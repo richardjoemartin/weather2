@@ -1,4 +1,5 @@
-Project link : [(https://weather2-richard.netlify.app/)]
+[Project link](https://weather2-richard.netlify.app/)
+
 
 
 
